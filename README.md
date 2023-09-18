@@ -2,7 +2,7 @@ Creating a well-structured and informative README is essential for sharing your 
 
 # Car Brand Prediction Model using ResNet50
 
-![Model Demo](demo.gif) (Replace with a link to a demo video or a screenshot)
+![Model Demo](![Alt text](<car pred.png>)) (Replace with a link to a demo video or a screenshot)
 
 ## Overview
 

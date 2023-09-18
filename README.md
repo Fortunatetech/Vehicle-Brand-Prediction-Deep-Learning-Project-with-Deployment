@@ -1,8 +1,6 @@
-Creating a well-structured and informative README is essential for sharing your project with others. Here's a template for a README specific to your car brand prediction model using ResNet50:
-
 # Car Brand Prediction Model using ResNet50
 
-![Model Demo](![Alt text](<car pred.png>)) (Replace with a link to a demo video or a screenshot)
+![Model Demo](![Alt text](<car pred.png>))
 
 ## Overview
 
@@ -53,7 +51,7 @@ Before you begin, ensure you have met the following requirements:
 
 2. Train the model:
 
-   - Modify the `config.py` file to set the appropriate parameters such as batch size, number of epochs, and dataset paths.
+   - Modify the `Transfer Learning Resnet 50.ipynb` file to set the appropriate parameters such as batch size, number of epochs, and dataset paths.
 
    - Run the training script:
 
@@ -75,14 +73,25 @@ Before you begin, ensure you have met the following requirements:
 
 ## Model Training
 
-- Explain the dataset used, data preprocessing steps, and any data augmentation techniques employed.
-- Provide information on model architecture and hyperparameters used for training.
-- Mention any challenges encountered during training and how they were addressed.
+- Dataset: I used a labeled car image dataset containing classes for Audi, Lamborghini, and Mercedes, split into training, validation, and test sets.
+
+- Data Prep: I resized images to 224x224 pixels and scaled pixel values to 0-1 for uniformity.
+
+- Augmentation: I improved generalization using techniques like rotation, horizontal flip, and brightness adjustments during training.
+
+- Architecture: I employed ResNet50, a pretrained CNN on ImageNet, fine-tuning it for car brand classification.
+
+- Hyperparameters: I adjusted batch size, learning rate, and epochs through experimentation to optimize training.
+
+- Challenges: I encountered limited data and overfitting. To combat these, I applied data augmentation, dropout layers, and fine-tuned hyperparameters.
 
 ## Evaluation
 
-- Describe how the model's performance was evaluated, including metrics used (e.g., accuracy, F1-score).
-- Provide insights into the model's performance and any potential areas for improvement.
+- Metrics: I assessed the model with accuracy, precision, recall, F1-score, and confusion matrix.
+
+- Insights: Achieving high test accuracy showed the model's effectiveness. However, class imbalances led to varying precision and recall scores.
+
+- Improvement: Potential enhancements include addressing class imbalance using oversampling or weighted loss functions, fine-tuning the architecture, and exploring advanced techniques like transfer learning.
 
 ## Demo
 

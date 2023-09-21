@@ -1,6 +1,6 @@
 # Car Brand Prediction Model using ResNet50
 
-(![Alt text](<car pred.png>))
+![Alt text](<car pred.png>)
 
 ## Overview
 

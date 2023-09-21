@@ -1,6 +1,6 @@
 # Car Brand Prediction Model using ResNet50
 
-![Model Demo](![Alt text](<car pred.png>))
+(![Alt text](<car pred.png>))
 
 ## Overview
 
@@ -94,7 +94,6 @@ Before you begin, ensure you have met the following requirements:
 - Improvement: Potential enhancements include addressing class imbalance using oversampling or weighted loss functions, fine-tuning the architecture, and exploring advanced techniques like transfer learning.
 
 ## Demo
-
 [- Include a GIF or video demonstrating how to use the model for predictions, showcasing its accuracy and speed.](https://github.com/Fortunatetech/Vehicle-Brand-Prediction-Deep-Learning-Project-with-Deployment/assets/104451288/6ba4bc0f-e19e-4b95-a88b-7110d976627b)
 
 ## Contributing

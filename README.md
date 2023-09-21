@@ -56,7 +56,7 @@ Before you begin, ensure you have met the following requirements:
    - Run the training script:
 
      ```bash
-     python train.py
+     python app.py
      ```
 
 3. Make predictions:
